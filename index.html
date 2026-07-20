@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+        <title>Search Example</title>
+    </head>
+    <body>
+        <div class="search-wrapper">
+            <label for="search">Search Criminal Statutes</label>
+            <input type="search" id="search" data-search>
+        </div>
+        <div class="user-cards" data-user-cards-container>
+            <template data-example-template>
+                <div class="card">
+                    <div class="header" data-header>Example Name</div>
+                    <a data-url>Link</a>
+                    <div class="body" data-body>Example Body</div>
+                    <div class="level" data-level>Example Level</div>
+                </div>
+            </template>
+        </div>
+    </body>
+</html>
