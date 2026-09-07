@@ -3,14 +3,16 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
-        <script src="script.js" defer></script>
+        <script src="script1.js" defer></script>
         <title>Search Example</title>
     </head>
     <body>
-        <div>This is a work in progress/concept work, do not rely on it for legal information</div>
         <div class="search-wrapper">
-            <label for="search">Search Statutes</label>
+            <label for="search">Search Criminal Statutes</label>
             <input type="search" id="search" data-search>
+        </div>
+        <div id="displayBox">
+
         </div>
         <div class="user-cards" data-user-cards-container>
             <template data-example-template>
@@ -18,7 +20,8 @@
                     <div class="header" data-header>Example Name</div>
                     <a data-url>Link</a>
                     <div class="body" data-body>Example Body</div>
-                    <div class="level" data-level>Example Level</div>
+                    <!--<div class="level" data-level>Example Level</div>-->
+                    <button class="displayButton">Display</button>
                 </div>
             </template>
         </div>
