@@ -16,7 +16,7 @@ searchInput.addEventListener("input",e => {
     
 })
 
-fetch("./statutes1.json")
+fetch("./statutes.json")
     .then(res => res.json())
     .then(data => {
         statutes = data.map(statute => {
